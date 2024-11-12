@@ -1,0 +1,9 @@
+body{
+    background-image: url(./img/italien_flagga__0.webp);
+    background-size:cover;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+}
+
+
