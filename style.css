@@ -43,27 +43,60 @@ img{
 }
 
 #förklara {
+    font-family: Itim;
     grid-column: 2/4;
     grid-row: 2/3;
 
     background-color: #ffffff;
+    border: solid #949494 2px;
 }
 
 #ingrediens {
+    font-family: Itim;
     grid-column: 2/4;
     grid-row: 3/4;
 
     background-color: #ffffff;
+    border: solid #949494 2px;
 }
 
 #instruktioner {
+    font-family: Itim;
     grid-column: 4/6;
     grid-row: 3/4;
 
     background-color: #ffffff;
+    border: solid #949494 2px;
 }
 
 footer{
+    font-family: Itim;
     grid-column: 3/5;
     grid-row: 4/5; 
+}
+
+#flex-placering {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#tidram{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid #000000 2px;
+}
+
+#lite-margin-left{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#meme {
+    padding: 10px;
+    height: 150px;
+    width: 150px;
 }
