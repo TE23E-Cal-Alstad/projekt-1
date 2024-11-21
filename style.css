@@ -38,8 +38,8 @@ a{
 img{
     grid-column: 4/6;
     grid-row: 2/3; 
-    width:100%;
-
+    width: 100%;
+    height: 100%;
 }
 
 #förklara {
@@ -61,4 +61,9 @@ img{
     grid-row: 3/4;
 
     background-color: #ffffff;
+}
+
+footer{
+    grid-column: 3/5;
+    grid-row: 4/5; 
 }
