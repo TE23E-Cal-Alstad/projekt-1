@@ -33,9 +33,32 @@ a{
     color: black;
 }
 
+/*huvudrutor*/
+
 img{
     grid-column: 4/6;
     grid-row: 2/3; 
     width:100%;
 
+}
+
+#förklara {
+    grid-column: 2/4;
+    grid-row: 2/3;
+
+    background-color: #ffffff;
+}
+
+#ingrediens {
+    grid-column: 2/4;
+    grid-row: 3/4;
+
+    background-color: #ffffff;
+}
+
+#instruktioner {
+    grid-column: 4/6;
+    grid-row: 3/4;
+
+    background-color: #ffffff;
 }
